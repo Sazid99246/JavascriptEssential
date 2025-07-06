@@ -51,7 +51,6 @@ let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticate
 
 console.log("Authentication Status:", authenticationStatus);
 
-
 // Practice
 let person = "Employee"
 
@@ -63,5 +62,4 @@ if (person == "Employee") {
     console.log('You are authorized to have partial access to facilitate "Dietary Services" only.');
 } else if (person == "Non-Subscriber") {
     console.log('Sorry! You are not eligible for the facility');
-    
 }
